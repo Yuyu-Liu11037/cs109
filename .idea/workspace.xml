@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba0d8cad-2dab-497a-8447-e165c5c5cb7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment1/p1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/p2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/p3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/p4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/bestPokerHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/endian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/endian2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/englishExamPreparation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/largeNumberAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/missingNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/PiComputation1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/bubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/Lab6E2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/MyTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab07/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab07/FoodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab07/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab07/userTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/FiveWins.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/FiveWins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,19 +13,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2HB4V3s2tnpgHzY09T688CIIzrZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/lyy/Desktop/cs109"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lyy/Desktop/cs109&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +38,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667745162339</updated>
       <workItem from="1667745163617" duration="40000" />
+      <workItem from="1667748251752" duration="35000" />
+      <workItem from="1667748338271" duration="103000" />
     </task>
     <servers />
   </component>
