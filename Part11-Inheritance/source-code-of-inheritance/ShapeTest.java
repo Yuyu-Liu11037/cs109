@@ -11,7 +11,6 @@ public class ShapeTest {
 		System.out.print(c1);
 		System.out.print(c2);
 
-		
 		Rectangle r1=new Rectangle(0,0,0.5,0.5);
 		Rectangle r2=new Rectangle(2,1,0.5,0.5);
 		Rectangle.setScreenSize(2);
@@ -20,7 +19,7 @@ public class ShapeTest {
 		r2.checkColor();
 		System.out.print(r1);
 		System.out.print(r2);
-		
+
 		StdDraw.setXscale(-Circle.getScreenSize(), Circle.getScreenSize());
 		StdDraw.setYscale(-Circle.getScreenSize(), Circle.getScreenSize());
 		c1.draw();

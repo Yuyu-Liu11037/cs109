@@ -9,6 +9,9 @@ public class Shape {
         this.y = y;
     }
 
+    public void checkColor(){};
+    public void draw(){};
+
     public double getX() {
         return x;
     }

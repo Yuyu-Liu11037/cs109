@@ -1,29 +1,31 @@
 
 
 public class Circle extends Shape{
-    private double radius;
-    private static final int DEFAULT_RADIUS = 5;
+    private double radius;//圆形独有的属性
+    static final int DEFAULT_RADIUS = 5;//圆形独有的属性
+
 
     public Circle(double radius, double x, double y) {
-        super(x,y);
+        super(x, y);
         this.radius = radius;
     }
 
     public Circle(double radius) {
-        super(0,0);
+        super(0, 0);
         this.radius = radius;
     }
 
     public Circle(double x, double y) {
-        super(x,y);
+        super(x, y);
         this.radius = DEFAULT_RADIUS;
     }
 
+
     public void checkColor() {
         if (isInBoundary()) {
-            color = ShapeColor.GREEN;
+            super.setColor(ShapeColor.GREEN);
         } else {
-            color = ShapeColor.RED;
+            super.setColor(ShapeColor.RED);
         }
     }
 
@@ -40,9 +42,8 @@ public class Circle extends Shape{
     @Override
     public String toString() {
         return "Circle{" +
-                "radius=" + " x=" + super.getX() +
-                ", y=" + super.getY() +
-                ", color=" + super.getColor() +
+                "radius=" +
+                super.toString() +
                 "}\n";
     }
 
@@ -54,10 +55,11 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
+
     public void draw() {
 
-        StdDraw.setPenColor(color.getColor());
-        StdDraw.filledCircle(x, y, radius);
+        StdDraw.setPenColor(super.getColor().getColor());
+        StdDraw.filledCircle(super.getX(), super.getY(), radius);
 
     }
 }
